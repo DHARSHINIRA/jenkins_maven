@@ -14,7 +14,7 @@ public class TeacherController {
 	@GetMapping(path="/teachers")
 	public String getTeacher() {
 		List<String>list=Arrays.asList("sri","sneha","nandy");
-		return list.toString();  
+		return list.toString();    
 		
 	}
 }
