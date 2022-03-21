@@ -15,6 +15,6 @@ public class TeacherController {
 	public String getTeacher() {
 		List<String>list=Arrays.asList("sri","sneha","nandy");
 		return list.toString();   	
-	}
+	}   
 }
 
